@@ -1,0 +1,5 @@
+Gambar berlabel asli      : 0
+Gambar berlabel otomatis  : 103 (model yolo26n.pt/COCO, conf 0.25)
+Gambar tanpa kotak        : 11 (tidak dipakai)
+Label otomatis hanya memuat objek yang sesuai nama folder gambar (mis. folder motorcycle -> motor saja),
+sehingga kendaraan lain di latar bisa tidak berlabel. Periksa dengan 01_cek_anotasi.py.
