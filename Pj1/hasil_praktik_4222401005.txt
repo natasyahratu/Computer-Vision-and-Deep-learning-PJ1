@@ -1,0 +1,17 @@
+==============================================================================
+  PRAKTIK TERPADU MINGGU 4-7 - RET503
+==============================================================================
+  NIM / Nama    : 4222401005 / Natasyahratu Zulharni
+  Waktu         : 17-10-2026 15:49:46
+  Komputer/user : 7e918be9066c / root
+  Dataset       : dataset_pj1  (sidik jari label: B423D13CAF1C)
+  Pengaturan    : model yolo26n, epochs 30, imgsz 416, batch 16
+==============================================================================
+  Eksperimen     Perubahan        mAP50  mAP50-95      P      R     ms   menit
+  E1_pretrained  -                0.995     0.979  0.990  1.000   14.3     1.2
+  E2_scratch     -                0.125     0.038  0.237  0.135    5.4     1.1
+  E3_tuning      imgsz=640        0.995     0.985  0.988  1.000   14.0     1.3
+==============================================================================
+  Model terpilih (mAP50-95 val tertinggi): E3_tuning
+  Hasil di data TEST (sekali saja)       : mAP50 0.945 | mAP50-95 0.911
+==============================================================================
